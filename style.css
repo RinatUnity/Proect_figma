@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("images/дом\ лендос\ 1.png");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 48px;
+    font-weight:400px;
+    line-height: 52px;
+}
+.h2_bold{
+    font-weight:bold;
+    font-size: 30px;
+    line-height: 50px;
+}
+.h3_bold{
+    font-weight:bold;
+    font-size: 25px;
+    line-height: 36px;
+}
+.h4_bold{
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+}
+.h2_light{
+    font-weight:lighter;
+    font-size: 30px;
+    line-height: 50px;
+}
+.h3_light{
+    font-weight:lighter;
+    font-size: 25px;
+    line-height: 36px;
+}
+.h4_light{
+    font-weight:lighter;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+
+header nav a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white;
+   
+    font-size: 26px;
+    font-weight:lighter;
+    line-height: 19px;
+}
+footer nav{
+    background-color: darkslategray;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white;
+    font-size: 16px;
+    font-weight:lighter;
+    line-height: 19px;
+}
+.color_yellow{
+    color: yellow;
+    font-size:12px ;
+}
+.class_minFont{
+    font-weight:400px;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+
