@@ -1,78 +1,401 @@
-*{
-    font-family: 'Roboto', sans-serif;
-}
-body{
-    background-image: url("images/дом\ лендос\ 1.png");
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-}
-h1{
-    font-size: 48px;
-    font-weight:400px;
-    line-height: 52px;
-}
-.h2_bold{
-    font-weight:bold;
-    font-size: 30px;
-    line-height: 50px;
-}
-.h3_bold{
-    font-weight:bold;
-    font-size: 25px;
-    line-height: 36px;
-}
-.h4_bold{
-    font-weight:bold;
-    font-size: 20px;
-    line-height: 18px;
-    text-align: center;
-}
-.h2_light{
-    font-weight:lighter;
-    font-size: 30px;
-    line-height: 50px;
-}
-.h3_light{
-    font-weight:lighter;
-    font-size: 25px;
-    line-height: 36px;
-}
-.h4_light{
-    font-weight:lighter;
-    font-size: 20px;
-    line-height: 18px;
+@charset "UTF-8";
+.containt1, .menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-header nav a {
-    text-decoration: none;
-    text-transform: lowercase;
-    color: white;
-   
-    font-size: 26px;
-    font-weight:lighter;
-    line-height: 19px;
-}
-footer nav{
-    background-color: darkslategray;
-    text-decoration: none;
-    text-transform: lowercase;
-    color: white;
-    font-size: 16px;
-    font-weight:lighter;
-    line-height: 19px;
-}
-.color_yellow{
-    color: yellow;
-    font-size:12px ;
-}
-.class_minFont{
-    font-weight:400px;
-    font-size: 12px;
-    line-height: 14px;
-
+.cart__text_2, .cart__knopka_2, .cart__text, .cart__knopka, .containt1__group_block, .containt1__group2_knopka, .containt__info_knopka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.containt {
+  background-image: url(images/дом\ лендос\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100wv;
+}
 
+.containt__menu {
+  width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.menu__list {
+  flex-wrap: wrap;
+}
+
+.list__element_ssilka {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.containt__info {
+  width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.containt__info_caption {
+  width: 500px;
+  font-size: 45px;
+  margin-top: 80px;
+}
+
+.containt__info_text {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.containt__info_knopka {
+  margin-top: 100px;
+  width: 285px;
+  height: 60px;
+  background-color: rgb(221, 143, 27);
+  padding: 0px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 23px;
+}
+
+.containt__info_items {
+  font-family: sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 150px;
+  margin-right: 50px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.w200 {
+  width: 230px;
+}
+
+.containt1 {
+  height: 650px;
+  color: rgb(7, 7, 7);
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom-right-radius: 70px;
+  box-shadow: 0px 0px 10px 10px rgba(201, 193, 193, 0.308);
+}
+
+.kartinka-1 {
+  width: 250px;
+}
+
+.containt1__group {
+  width: 650px;
+  padding-top: 50px;
+}
+
+.w346 {
+  width: 306px;
+}
+
+.containt1__caption {
+  text-align: center;
+  width: 440px;
+  margin: auto;
+  font-size: 27px;
+}
+
+.h2_light {
+  font-weight: 300;
+}
+
+.containt1__group2_caption {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.containt1__group2 {
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.group2 {
+  width: 260px;
+  text-align: center;
+}
+
+.containt1__group2_item {
+  font-family: sans-serif;
+  font-size: 12px;
+  width: 200px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.containt1__group2_knopka {
+  margin-top: 70px;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(221, 143, 27);
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+.w346 {
+  text-align: center;
+}
+
+.text-m-pr {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.349);
+}
+
+.text-b {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.containt1__group_block {
+  background-color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 15px;
+  width: 300px;
+  height: 70px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.colorG-g {
+  color: rgb(221, 143, 27);
+  font-size: 20px;
+}
+
+.w346 {
+  margin-top: -30px;
+}
+
+.colorBG {
+  background-color: blanchedalmond;
+  color: rgb(7, 7, 7);
+}
+
+.containt1__group_text {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+div > .containt2:nth-of-type(1) {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.container__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 160px);
+  gap: 20px;
+  color: rgb(7, 7, 7);
+}
+
+.container__grid > div:nth-child(1) {
+  grid-row: span 2;
+  background-image: url(images/Rectangle\ 54.png);
+  filter: brightness(90%);
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.container__grid > div:nth-child(6) {
+  background-image: url(images/Rectangle\ 51.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.container__grid > div:nth-child(2) {
+  background-image: url(images/Rectangle\ 49.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container__grid > div:nth-child(4) {
+  background-image: url(images/Rectangle\ 48.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container__grid > div:nth-child(7) {
+  background-image: url(images/Rectangle\ 45.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container__grid > div:nth-child(3) {
+  background-image: url(images/Rectangle\ 50.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container__grid > div:nth-child(5) {
+  grid-row: span 2;
+  background-image: url(images/Rectangle\ 54.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.cart__caption {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  width: 180px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.cart__knopka {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  width: 180px;
+  position: absolute;
+  top: 280px;
+  left: 30px;
+  width: 180px;
+  height: 35px;
+  background-color: rgb(32, 202, 32);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.cart__text {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
+  position: absolute;
+  top: 36px;
+  left: 190px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.cart__text2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  top: 230px;
+  left: 30px;
+}
+
+.cart__t_b {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.cart__caption_2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.cart__knopka_2 {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  width: 180px;
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(32, 202, 32);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.cart__text_2 {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
+  position: absolute;
+  top: 11px;
+  left: 190px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.cart__text2_2 {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.cart__t_b_2 {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.containt2 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.cotainer__grid_caption {
+  color: rgb(7, 7, 7);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.t_uski {
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */

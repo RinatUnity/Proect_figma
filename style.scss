@@ -1,0 +1,375 @@
+$size:10px;
+$color:rgb(255, 255, 255);
+$color-gold:rgb(221, 143, 27);
+$color-cher: rgb(7, 7, 7);
+$color-green:rgb(32, 202, 32);
+
+%d-flex-jc-spb{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+%d-flex-c-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+@mixin p-br ($p , $r){
+    padding: $p;
+    border-radius: $r;
+}
+.containt{
+    background-image: url(images/дом\ лендос\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100wv;
+}
+.containt__menu{
+    width: $size * 100;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: $size * 1.2;
+    
+}
+.menu__list{
+    @extend %d-flex-jc-spb;
+    flex-wrap: wrap;
+
+}
+.list__element_ssilka{
+    font-size: $size*2.5;
+    text-decoration: none;
+    color: $color;
+}
+.containt__info{
+    width: $size * 100;
+    margin: auto;
+    font-family: sans-serif;
+    color: $color;
+}
+.containt__info_caption{
+    width: $size*50;
+    font-size: $size * 4.5;
+    margin-top: $size * 8;
+}
+.containt__info_text{
+    font-size: $size * 1.5;
+    color: $color;
+}
+.containt__info_knopka{
+    margin-top: $size*10;
+    width: 28.5 * $size;
+    height: 6 * $size;
+    background-color: $color-gold;
+    @include p-br( $size *0 , $size);
+    font-family: sans-serif;
+    font-size: $size * 2.3;
+    @extend %d-flex-c-c;
+}
+.containt__info_items{
+    font-family: sans-serif;
+    font-size: $size * 1.5;
+    display: inline-block;
+    width: 15 * $size;
+    margin-right: $size*5;
+    margin-top: $size*3;
+    vertical-align: top;
+}
+.w200{
+    width: $size * 23;
+}
+.containt1{
+    height: $size * 65;
+    color: $color-cher;
+    margin-top: $size*5;
+    background-color:$color;
+    @extend %d-flex-jc-spb;
+    align-items: flex-start;
+    @include p-br( $size, $size  );
+    border-bottom-right-radius: $size*7;
+    box-shadow: 0px 0px 10px 10px rgba(201, 193, 193, 0.308);
+}
+.kartinka-1{
+    width: $size*25;
+}
+.containt1__group{
+    width: $size * 65;
+    
+    padding-top: $size*5;
+}
+.w346{
+    width: $size * 30.6;
+}
+.containt1__caption{
+    text-align: center;
+    width: $size * 44;
+    margin: auto;
+    font-size: $size * 2.7;
+}
+.h2_light{
+    font-weight: 300;
+}
+.containt1__group2_caption{
+    
+    text-align: center;
+    margin-top: $size*5;
+}
+.containt1__group2{
+    margin: auto;
+    margin-top: 5 * $size;
+    width: $size*60;
+    display: flex;
+    justify-content: center;
+    gap: 30px;      
+}
+.group2{
+    width: $size * 26;
+    text-align: center;
+}
+.containt1__group2_item{
+    font-family: sans-serif;
+    font-size: $size*1.2;
+    width: 200px;
+    text-align: center;
+    margin-top: $size*7;
+    
+}
+.containt1__group2_knopka{
+margin-top: 7 * $size;
+text-align: center;
+width: 15 * $size;
+height: 3.5 * $size;
+background-color:$color-gold;
+margin-left: 10 * $size;
+color: $color;
+@extend %d-flex-c-c;
+font-size: $size * 1.7;
+}
+.w346{
+    text-align: center;
+}
+.text-m-pr{
+    font-size: $size * 1.5;
+    color: rgba(0, 0, 0, 0.349);
+}
+.text-b{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.containt1__group_block{
+    background-color: $color-cher;
+    color: $color;
+    margin-top: $size;
+    font-size: $size * 1.5;
+    width: $size * 30;
+    height: $size * 7;
+    @extend %d-flex-c-c;
+    border-top-left-radius: $size * 2;
+    border-bottom-right-radius: $size * 2;
+}
+.colorG-g{
+    color: $color-gold;
+    font-size: $size * 2;
+}
+.w346{
+    margin-top: -3 * $size;
+}
+.colorBG{
+    background-color: blanchedalmond;
+    color: $color-cher;
+}
+.containt1__group_text{
+    font-family: sans-serif;
+    font-size: $size * 1.5;
+    margin-top: $size * -2;
+}
+div>.containt2:nth-of-type(1){
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.container__grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:  repeat(3,$size*16);
+    gap: 20px;
+    color: $color-cher;
+}
+.container__grid>div:nth-child(1){
+   
+    grid-row: span 2;
+    background-image: url(images/Rectangle\ 54.png);
+    filter: brightness(90%);
+    background-position: center;
+    background-size: cover;
+    color: $color;
+    position: relative;
+}
+.container__grid>div:nth-child(6){
+    background-image: url(images/Rectangle\ 51.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: $color;
+}
+.container__grid>div:nth-child(2){
+    background-image: url(images/Rectangle\ 49.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container__grid>div:nth-child(4){
+    background-image: url(images/Rectangle\ 48.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container__grid>div:nth-child(7){
+    background-image: url(images/Rectangle\ 45.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container__grid>div:nth-child(3){
+    background-image: url(images/Rectangle\ 50.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container__grid>div:nth-child(5){
+   
+    grid-row: span 2;
+    background-image: url(images/Rectangle\ 54.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: $color;
+}
+.cart__caption{
+    font-family: sans-serif;
+    font-size: $size * 2.5;
+    font-weight: 600;
+    width: $size * 18;
+    position: absolute;
+    top: $size * 3;
+    left: $size *3;
+    color:$color;
+}
+.cart__knopka{
+    font-family: sans-serif;
+    font-size: $size * 1.5;
+    font-weight: 600;
+    width: $size * 18;
+    position: absolute;
+    top:$size * 28;
+    left: $size * 3; 
+    width: $size * 18;
+    height: $size * 3.5;
+    background-color: $color-green;
+    @extend %d-flex-c-c;
+    @include p-br(0,$size * 0.5 )
+}
+.cart__text{
+    font-family: sans-serif;
+    font-size: $size * 1.2;
+    font-weight: 600;
+    width: $size * 10;
+    height: $size * 3;
+    background-color: $color;
+    color: $color-cher;
+    position: absolute;
+    top:$size * 3.6;
+    left: $size * 19;
+    @extend %d-flex-c-c;
+    @include p-br(0,$size )
+
+}
+.cart__text2{
+    font-family: sans-serif;
+    font-size: $size * 1.5;
+    font-weight: 600;
+    position: absolute;
+    top:$size * 23;
+    left: $size * 3; 
+}
+.cart__t_b{
+    font-family: sans-serif;
+    font-size: $size * 3;
+    font-weight: 900;
+
+}
+.cart__caption_2{
+    font-family: sans-serif;
+    font-size: $size * 2;
+    font-weight: 600;
+    width: $size * 12;
+    position: absolute;
+    top: $size * 1;
+    left: $size *3;
+    color:$color;
+}
+.cart__knopka_2{
+    font-family: sans-serif;
+    font-size: $size * 1.2;
+    color: $color;
+    font-weight: 600;
+    width: $size * 18;
+    position: absolute;
+    top:$size * 11;
+    left: $size * 3; 
+    width: $size * 15;
+    height: $size * 3.5;
+    background-color: $color-green;
+    @extend %d-flex-c-c;
+    @include p-br(0,$size * 0.5 )
+}
+.cart__text_2{
+    font-family: sans-serif;
+    font-size: $size * 1;
+    font-weight: 600;
+    width: $size * 10;
+    height: $size * 2;
+    background-color: $color;
+    color: $color-cher;
+    position: absolute;
+    top:$size * 1.1;
+    left: $size * 19;
+    @extend %d-flex-c-c;
+    @include p-br(0,$size );
+}
+.cart__text2_2{
+    font-family: sans-serif;
+    font-size: $size * 1.2;
+    font-weight: 600;
+    position: absolute;
+    top:$size * 7;
+    left: $size * 3;
+    color: $color; 
+}
+.cart__t_b_2{
+    font-family: sans-serif;
+    font-size: $size * 2.5;
+    font-weight: 900;
+
+}
+.containt2{
+    margin-top: $size * 15;
+    margin-bottom: $size * 5;
+}
+.cotainer__grid_caption{
+    color: $color-cher;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: $size * 3;
+    width: $size * 70;
+    margin: auto;
+    margin-bottom: $size * 5;
+    font-weight: 700;
+}
+.t_uski{
+    font-weight: 300;
+}
+
+
+
